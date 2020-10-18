@@ -1,7 +1,7 @@
 <launch>
 
     <arg name="use_gui" default="false"/>
-    <arg name="world" default="$(find worlds)/willowgarage.world"/>
+    <arg name="world" default="worlds/empty.world"/>
 
     <!-- Open a world in Gazebo -->
     <include file="$(find gazebo_ros)/launch/empty_world.launch">

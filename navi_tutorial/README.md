@@ -16,6 +16,8 @@ The provided robot (model of Tesla's cybertruck) is already complete and should 
 
 > **Note.** I did not create the meshes for the cybertruck model we are using! I forgot to keep a reference to the creator but I want to acknowledge their due credit nonetheless.
 
+> **Note:** I reference a `turtlebot3` world (in `worlds/turtlebot3.world`) which can be downloaded and copied into the `.gazebo/models` folder from [Dataset-of-Gazebo-Worlds-Models-and-Maps](https://github.com/mlherd/Dataset-of-Gazebo-Worlds-Models-and-Maps)
+
 ### /odom ###
 
 This package does not currently exist - you will create it. Here you will use `robot_localization` to fuse sensor readings from:

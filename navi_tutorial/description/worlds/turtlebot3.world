@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<sdf version="1.4">
+  <world name="default">
+    <gui>
+      <camera name="user_camera">
+        <pose>0 0 4.5  0 1.57079 0</pose>
+        <!-- <view_controller>ortho</view_controller> -->
+        <!-- <projection_type>orthographic</projection_type> -->
+      </camera>
+    </gui>
+
+    <!-- Global Light Source -->
+    <include>
+      <uri>model://sun</uri>
+    </include>
+
+    <!-- Ground Plane -->
+    <include>
+      <uri>model://ground_plane</uri>
+    </include>
+
+    <!-- Relevant Model: turtlebot3_world -->
+    <include>
+      <pose>0.5 0 0  0 0 0</pose>
+      <static>true</static>
+      <uri>model://turtlebot3_world</uri>
+    </include>
+    
+  </world>
+</sdf>

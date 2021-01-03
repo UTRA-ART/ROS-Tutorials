@@ -30,7 +30,7 @@
             <commandTopic>cmd_vel</commandTopic>
 
             <!-- Odometry (nav_msgs/Odometry) settings -->
-            <odometrySource>encoder</odometrySource>
+            <odometrySource>world</odometrySource>
             <odometryTopic>odom</odometryTopic>
             <odometryFrame>odom</odometryFrame>
 

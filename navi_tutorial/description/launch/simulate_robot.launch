@@ -10,8 +10,6 @@
     </include>
 
     <!-- Spawn the robot -->
-    <include file="$(find description)/launch/spawn_robot.launch">
-        <arg name="robot_ns" value="navi"/>
-    </include>
+    <include file="$(find description)/launch/spawn_robot.launch"/>
 
 </launch>
